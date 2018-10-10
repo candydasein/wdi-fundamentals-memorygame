@@ -1,4 +1,13 @@
-var cards = [
+console.log("Up and running!");
+
+var cardOne = "queen";
+var cardTwo = "queen";
+var cardThree = "king";
+var cardFour = "king";
+
+console.log("User flipped " + cardOne);
+console.log("User flipped " + cardThree);
+/*var cards = [
 {
 	rank: "queen",
 	suit: "hearts",
@@ -19,6 +28,18 @@ var cards = [
 	suit: "diamonds",
 	cardImage: "images/king-of-diamonds.png",
 }
+
+var createBoard = function () {
+	for (var i = 0; i < cards.length; i++) {
+		var cardElement = document.createElement('img');
+		cardElement.setAttribute(src, "images/back.png");
+		cardElement.setAttribute(data-id, i);
+		cardElement.addEventListener("click", flipCard);
+		cardElement.append
+		
+
+	}
+}
 ];
 var cardsInPlay = [];
 var checkForMatch = function () {
@@ -36,5 +57,5 @@ console.log(cards[cardId.cardImage]);
 console.log(cards[cardId.suit]);
 
 flipcard(0);
-flipcard(2)
-
+flipcard(2);
+*/
