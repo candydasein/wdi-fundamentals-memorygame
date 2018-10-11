@@ -36,9 +36,6 @@ h2 {
 	font-size: 20px;
 }
 
-h3 {
-	color: black;
-}
 
 p {
 	font-family: "Droid Serif";
@@ -92,8 +89,8 @@ footer{
 }
 
 .name {
-color: #F15B31;
-font-weight: 700;
+	color: #F15B31;
+	font-weight: 700;
 }
 
 .clearfix:after {
@@ -103,5 +100,9 @@ font-weight: 700;
 	clear: both;
 	height: 0;
 	font-size: 0;
+}
+
+.reset-button {
+	margin-top: 20px;
 }
 

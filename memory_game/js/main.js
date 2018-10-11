@@ -32,7 +32,6 @@ var checkForMatch = function() {
 	  };
 	};
 	setTimeout(delayedAlert, 60);
-	
 };
 
 var createBoard = function () {
@@ -58,7 +57,7 @@ var flipCard = function () {
 };
 
 createBoard();
-console.log("reached end of file");
+
 
 
 
